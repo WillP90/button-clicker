@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js" defer></script>
+    <title>Button Clicker</title>
+</head>
+<body>
+    <!-- Start Container -->
+    <div class="container">
+
+        <!-- Start Nav Bar -->
+        <div class="navBar">
+            <p class="navTitle">Dojonary</p>
+            <input type="search" name="" id="" placeholder="Search..." class="navSearch">
+            <button class="navButton" onclick="loginBtn()">Login</button>
+        </div>
+        <!-- End Nav Bar -->
+
+        <!-- Start Page Container -->
+        <div class="pageContainer">
+
+            <!-- Start Page Column 1 (Left) -->
+        <div class="col1">
+
+            <!-- Start First Entry Card -->
+            <div class="entry">
+                <div class="entryCol1">
+                    <p class="defTitle">ninja</p>
+                    <p class="defSyn1">noun</p>
+                    <p class="defSyn2">Plural: <span>ninjas</span></p>
+                    <button class="likeBtn" onclick="likeButton()">0 likes</button>
+                </div>
+                <p class="entryCol2">A practioner skilled int the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+            </div>
+            <!-- End First Entry Card -->
+
+            <!-- Start Second Entry Card -->
+            <div class="entry">
+                <div class="entryCol1">
+                    <p class="defTitle">ninja</p>
+                    <p class="defSyn1">noun</p>
+                    <p class="defSyn2">Plural: <span>ninjas</span></p>
+                    <button class="likeBtn2" onclick="likeButton2()">0 likes</button>
+                </div>
+                <p class="entryCol2">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+            </div>
+            <!-- End Second Entry Card -->
+        </div>
+        <!-- End Page Column 1 (Left) -->
+
+        <!-- Start Page Column 2 (Right) -->
+        <div class="col2">
+            <div class="definitionBox">
+                <p class="defText">Dojonary is defined by <span2>YOU</span2></p>
+                <button class="defBtn" onclick="removeBtn()">Add Definition</button>
+            </div>
+        </div>
+        <!-- End Page Column 2 (Right) -->
+        </div>
+        <!-- End Page Container -->
+    </div>
+    <!-- End Main Container -->
+</body>
+</html>
